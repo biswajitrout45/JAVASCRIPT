@@ -1,0 +1,24 @@
+function abc(a,b,c)
+{
+    if(a>b)
+    {
+        if(a>c){
+        console.log(a)
+        }
+    else
+    {
+        console.log(c)
+    }
+    }
+    else{
+        if(b>c)
+        {
+            comnsole.log(b)
+        }
+        else{
+            console.log(c)
+        }
+    }
+}
+abc(5,2,7)
+abc(15,4,26)
