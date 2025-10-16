@@ -1,7 +1,7 @@
 var num=[19,17,2222,14,21,11,5];
-let count=0
 for(let j=0;j<num.length;j++)
 {
+let count=0
 if(num[j]<=1)
 {
     console.log("It is not a prime number")
