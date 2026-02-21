@@ -157,7 +157,7 @@ nav a:hover{
     margin: 0 auto;
 }
 .id div:hover{
-    transform: translateY(-10px);
+    transform: translateY(10px);
 }
 .phone{
     background: #f9f9f9;

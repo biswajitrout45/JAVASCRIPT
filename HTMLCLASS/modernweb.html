@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Design</title>
+    <link rel="stylesheet" href="modernweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">ModernWeb</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">⋮</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Modern Design</h1>
+            <p class="hero-subtitle">Creating Beautiful Digital Experiences</p>
+            <button class="cta-button" id="ctaButton">Get Started</button>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-text">We are passionate about creating stunning web experiences that captivate and engage. Our team combines creativity with technical expertise to deliver exceptional results.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="cards-wrapper">
+                <button class="scroll-btn left" id="scrollLeft">‹</button>
+                <div class="cards-container" id="cardsContainer">
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Web Design</h3>
+                        <p>Beautiful and responsive designs that work on all devices</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💻</div>
+                        <h3>Development</h3>
+                        <p>Clean, efficient code that brings designs to life</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Optimization</h3>
+                        <p>Fast loading times and smooth performance</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Mobile First</h3>
+                        <p>Optimized experiences for mobile users</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🔒</div>
+                        <h3>Security</h3>
+                        <p>Secure and reliable web solutions</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💡</div>
+                        <h3>Consulting</h3>
+                        <p>Expert advice for your digital strategy</p>
+                    </div>
+                </div>
+                <button class="scroll-btn right" id="scrollRight">›</button>
+            </div>
+        </div>
+    </section>
+<section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev" id="prevSlide">‹</button>
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <div class="slide-content" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <h3>Project Alpha</h3>
+                            <p>E-commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <h3>Project Beta</h3>
+                            <p>Mobile Application</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <h3>Project Gamma</h3>
+                            <p>Corporate Website</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <h3>Project Delta</h3>
+                            <p>Social Platform</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="nextSlide">›</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernWeb</h3>
+                    <p>Creating digital excellenmce since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@modernweb.com</p>
+                    <p>Phone: (111) 123-1234</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1QdDPq4p8P/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Biswaji65570583" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/_mr_biswajit45?igsh=MW5zMWM4ZXJ4MmtpNg==" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ModernWeb. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="modernscript.js"></script>
+
+</body>
+</html>

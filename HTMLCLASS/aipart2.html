@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VisionaryEdge Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-dark: #0d1117;
+      --bg-light: #1a2236;
+      --brand: #4db6ff;
+      --brand-alt: #ff6b9d;
+      --text: #f0f4f9;
+      --text-dim: #a0a9b8;
+      --card: #121826;
+      --radius: 12px;
+      --shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Inter, sans-serif; background: linear-gradient(160deg, var(--bg-dark), var(--bg-light)); color: var(--text); }
+    a { text-decoration: none; color: var(--text); }
+    header { background: rgba(13,17,23,0.8); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 50; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px; }
+    nav .links { display: flex; gap: 20px; }
+    nav .links a { color: var(--text-dim); font-weight: 600; }
+    nav .links a:hover { color: var(--text); }
+    .hero { padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 48px; margin-bottom: 20px; }
+    .hero p { font-size: 18px; color: var(--text-dim); margin-bottom: 30px; }
+    .btn { background: linear-gradient(135deg, var(--brand), var(--brand-alt)); color: #0d1117; padding: 12px 20px; border-radius: var(--radius); font-weight: 700; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    h2 { font-size: 32px; margin-bottom: 20px; }
+    .grid { display: grid; gap: 20px; }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .card { background: var(--card); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+    .stats { display: flex; justify-content: space-around; margin-top: 30px; }
+    .stat h3 { font-size: 28px; }
+    .team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .member { background: var(--card); padding: 20px; border-radius: var(--radius); text-align: center; }
+    .testimonials { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .quote { background: #121725; padding: 20px; border-radius: var(--radius); }
+    form { display: grid; gap: 15px; background: var(--card); padding: 20px; border-radius: var(--radius); }
+    input, textarea { padding: 12px; border-radius: 8px; border: none; background: #0f1626; color: var(--text); }
+    footer { text-align: center; padding: 30px; color: var(--text-dim); border-top: 1px solid rgba(255,255,255,0.1); }
+    @media(max-width: 768px) {
+      .grid-3, .team, .testimonials { grid-template-columns: 1fr; }
+      .stats { flex-direction: column; gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><strong>VisionaryEdge</strong></div>
+    <div class="links">
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a href="#team">Team</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Strategic Brilliance, Delivered</h1>
+  <p>We craft innovative strategies that empower organizations to thrive in complexity.</p>
+  <a href="#contact" class="btn">Begin Your Transformation</a>
+</section>
+
+<section id="services">
+  <h2>Our Expertise</h2>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Business Architecture</h3>
+      <p>Frameworks that align vision with execution.</p>
+    </div>
+    <div class="card">
+      <h3>Digital Strategy</h3>
+      <p>Optimizing platforms and ecosystems for growth.</p>
+    </div>
+    <div class="card">
+      <h3>Innovation Catalyst</h3>
+      <p>Driving creative solutions through structured exploration.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Two Decades of Impact</h2>
+  <p>We’ve guided enterprises through transformation with measurable success.</p>
+  <div class="stats">
+    <div class="stat"><h3>250+</h3><p>Transformations</p></div>
+    <div class="stat"><h3>96%</h3><p>Success Rate</p></div>
+    <div class="stat"><h3>400+</h3><p>Clients Served</p></div>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Meet Our Leaders</h2>
+  <div class="team">
+    <div class="member"><h3>Aisha Khan</h3><p>Chief Strategy Officer</p></div>
+    <div class="member"><h3>Lucas Meyer</h3><p>Transformation Director</p></div>
+    <div class="member"><h3>Sofia Alvarez</h3><p>Innovation Architect</p></div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Client Success Stories</h2>
+  <div class="testimonials">
+    <div class="quote">
+      <p>“VisionaryEdge helped us unlock new markets and accelerate growth.”</p>
+      <small>- Rajiv Sharma, CEO, TechSphere</small>
+    </div>
+    <div class="quote">
+      <p>“Their frameworks gave us clarity and confidence in our transformation journey.”</p>
+      <small>- Emily Chen, Director, MarketPulse</small>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Start Your Journey</h2>
+  <form>
+    <input type="text" placeholder="First Name" required />
+    <input type="text" placeholder="Last Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <input type="tel" placeholder="Phone Number" />
+    <input type="text" placeholder="Organization Name" />
+    <textarea placeholder="Describe your vision and goals"></textarea>
+    <button class="btn" type="submit">Launch Partnership</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 VisionaryEdge Consulting. All rights reserved.</p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Careers</a></p>
+</footer>
+
+</body>
+</html>

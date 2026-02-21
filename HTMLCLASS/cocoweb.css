@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  justify-items: center;
+  align-items: center;
+  padding: 0 5rem;
+  height: 90px;
+  margin-top: -1rem;
+}
+.logo{
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.menu {
+  display: flex;
+  gap: 1.7rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.05rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+
+}
+
+.menu a:hover {
+    color: #667eea;
+}
+
+.menu a::after {
+    transition: width 0.3s ease;
+}
+
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.coco{
+    padding: 20px;
+    background-color: rgba(45, 111, 223, 0.575);
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: start;
+    overflow: hidden;
+}
+.first{
+    position: relative;
+    top:5%;
+    bottom: 90%;
+    left:30px;
+    right:95%;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first h4{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.first h1{
+    font-size: 90px;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.first p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.first .shop-button{
+    padding: 10px 50px;
+    background-color: white;
+    color: #f94d69;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.first .shop-button:hover{
+    background-color: rgba(8, 23, 157, 0.233);
+    color: #f94d69;
+}
+.second{
+    position: relative;
+}
+
+.discount{
+    position: relative;
+    margin-right: 5000%;
+    top: 12%;
+}
+
+.third{
+    position: relative;
+    left: 38%;
+}
+.image{
+    width: 500px;
+    height: 150%;
+    margin-left:-250px;
+    margin-top:-210px;
+    background: none;
+}
+.discount{
+    height: 80px;
+    width: 80;
+}
+.first .meeet{
+    width: 50px;
+}
+.mod{
+    display: flex;
+}
+.image{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.meeet h1{
+    margin-top: -25px;
+}
+.now{
+    margin-left: 5px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.shop p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.shop h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.all-btn{
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+.solo-btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.solo-btn button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+    border: none;
+}
+.solo-btn p{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.solo-btn button:hover{
+    border: 2px solid rgb(207, 58, 215,0.2);
+    background-color: #677eea;
+    transform: scale(1.2);
+}
