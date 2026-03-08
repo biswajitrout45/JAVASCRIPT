@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(127, 51, 250);
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+
+}
+.counter-display{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+.counter-buttons{
+    display: flex;
+    gap:20px;
+
+}
+.counter-reset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    border-width: 20px;
+}
+.check{
+    background-color:rgb(164, 249, 249);
+    padding: 10px 20px;
+    border:none;
+    border-radius: 30px;
+    font-weight: bold;
+}

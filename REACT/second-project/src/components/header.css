@@ -1,0 +1,43 @@
+.header{
+    top:0;
+    width:100%;
+    position:fixed;
+    z-index:1000;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 130px;
+    transition: all 0.3s ease;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background: rgba(18, 23, 39, 0.6);
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    margin: 0 auto;
+    max-width:1440px;
+}
+.logo{
+    font-size:1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    background: linear-gradient(135deg,#585beb,#ca0eb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition:transform 0.3s ease;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    gap:2rem;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-size:1.3rem;
+    font-weight: 500;
+}

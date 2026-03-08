@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightslategray;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    gap:20px;
+    height:80vh;
+    width:40vw;
+    margin:0 auto;
+    padding:20px;
+    border: 10px solid lightslategray;
+}
+.up{
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    background: deepskyblue;
+    width:100%;
+    padding:10px;
+}
+.down{
+    margin-top: -18px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+}
+.form-input{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+    gap:5px;
+    justify-content: left;
+}

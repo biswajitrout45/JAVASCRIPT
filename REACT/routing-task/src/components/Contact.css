@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-top: 5rem;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap:20px;
+    min-width: 30rem;
+}
+.contact form textarea{
+    min-height: 5rem;
+}
